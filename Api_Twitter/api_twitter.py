@@ -5,12 +5,6 @@ from dicionario import chaves_acessos
 
 # Adicionando as chave de acesso a variaveis
 
-consumer_key = 'ktfNkSHV9ahnx8eDziqnpXJhk'
-consume_secret = '02U3R6Ax2CKQZrgqoEZ0Xi5EevPYJCjXYJe2lnwflFNXFhVauw'
-bearer_token = 'AAAAAAAAAAAAAAAAAAAAAO8QgwEAAAAAC%2BukDvFoxJVCR2F7ja3oD86wdWA%3DLi34PZA7KPgEtTLMX0tHTGuEhr8c0YhCCnaLWIILQFmkUQB5Pr'
-acess_token = '1566146727371018245-ItmgajWDH5i8QFChLXHDglkwkXXyVC'
-acess_token_secret = 'S7dJlXB76gdyoZiL57hTzbbtDm7Mwsv2Q8zcQDuiR0OhD'
-
 cliente = tw.Client(bearer_token=chaves_acessos['bearer_token'],
                     consumer_key=chaves_acessos['consumer_key'],
                     consumer_secret=chaves_acessos['consume_secret'],
