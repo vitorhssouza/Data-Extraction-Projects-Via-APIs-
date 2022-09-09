@@ -40,28 +40,6 @@ def escolha(opcao) -> None:
 
 
 
-def menu() -> None:
-    """Interface gráfica do usuário """
-    linha()
-    print('ANÁLISE DE SENTIMENTO DE TWEETS'.center(90))
-    linha()
-    print('1  - INFORME O ASSUNTO QUE DESEJA PESQUISAR\n'
-          '2  - VISUALIZAÇÃO DOS TWEETS SOBRE O ASSUNTO INSERIDO\n'
-          '3  - ANÁLISE DE SENTIMENTO COM O GRÁFICO WORDCLOUD \n'
-          '4  - SAIR DO SISTEMA\n')
-
-    opcao: int = int(input('Informe sua opção: '))
-    escolha_opcao(opcao)
-
-
-def escolha_opcao(opcao: int) -> None:
-
-    if opcao == 1:
-        pesquisa = input('Informe o assunto que deseja pesquisar no twitter: ').lower()
-        query = Tweets(pesquisa)
-        menu()
-
-
 
 
 
