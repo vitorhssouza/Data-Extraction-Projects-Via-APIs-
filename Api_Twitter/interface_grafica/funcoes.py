@@ -36,7 +36,8 @@ def escolha(opcao) -> None:
         usuario: int = int(input('Informe sua opção: '))
         if opcao == 1:
             pesquisa = Tweets(query)
-            print(pesquisa.query)
+            print(pesquisa.tweets)
+
 
 
 
