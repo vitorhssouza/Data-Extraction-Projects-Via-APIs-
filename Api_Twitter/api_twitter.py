@@ -14,7 +14,10 @@ cliente = tw.Client(bearer_token=chaves_acessos['bearer_token'],
 star = '2022-09-07T16:20:01Z'
 end = '2022-09-07T16:21:01Z'
 
+#t = tw.Place()
+
 teste = cliente.search_recent_tweets(query='Iphone 14', max_results=100, start_time=star, end_time=end)
 dados = teste.data
 
-print(dados)
+
+print(teste)
