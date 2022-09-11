@@ -45,25 +45,43 @@ def pesquisa(query) -> None:
         print('1  - VISUALIZAÇÃO DOS TWEETS SOBRE O ASSUNTO INSERIDO\n'
               '2  - ANÁLISE DE SENTIMENTO COM O GRÁFICO WORDCLOUD \n')
         usuario: int = int(input('Informe sua opção: '))
+        linha()
         if usuario == 1:
-            pesquisa = Tweets(query)
-            print(pesquisa.tweets)
+            pesquisa_twitter = Tweets(query)
+            print(pesquisa_twitter.query)
+            linha()
             conti = int(input('Deseja visualizar o gráfico wordcloud ? 1-Sim ou 2-Não '))
             if conti == 1:
                 print('Plotando o gráfico com a nuvem de palavras mais comentado do momento')
                 sleep(2)
-                print(pesquisa.tweets)
+                pesquisa_twitter.grafico()
+                opcao = int(input('Deseja pesquisar outro assunto ou sair do sistema? 1-Sim ou 2-Sair'))
+                if opcao == 1:
+                    sleep(1)
+                    menu2(opcao)
+                else:
+                    print('Saindo do sistema..')
+                    sleep(1)
+                    exit()
+
             elif conti == 2:
                 print('Saindo do sistema..')
                 exit()
             else:
                 print('Opção inválida. Tente novamente. ')
         elif usuario == 2:
-            pesquisa = Tweets(query)
-            print(pesquisa.query)
-
+            grafico = Tweets(query)
+            grafico.grafico()
+            opcao = int(input('Deseja pesquisar outro assunto ou sair do sistema? 1-Sim ou 2-Sair'))
+            if opcao == 1:
+                sleep(1)
+                menu2(opcao)
+            else:
+                print('Saindo do sistema..')
+                sleep(1)
+                exit()
         else:
-             print('Opção inválida. Tente novamente. ')
+            print('Opção inválida. Tente novamente. ')
 
 
 
