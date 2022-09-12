@@ -55,7 +55,7 @@ def pesquisa(query) -> None:
                 print('Plotando o gráfico com a nuvem de palavras mais comentado do momento')
                 sleep(2)
                 pesquisa_twitter.grafico()
-                opcao = int(input('Deseja pesquisar outro assunto ou sair do sistema? 1-Sim ou 2-Sair'))
+                opcao = int(input('Deseja pesquisar outro assunto ou sair do sistema? 1-Sim ou 2-Sair '))
                 if opcao == 1:
                     sleep(1)
                     menu2(opcao)
@@ -72,7 +72,7 @@ def pesquisa(query) -> None:
         elif usuario == 2:
             grafico = Tweets(query)
             grafico.grafico()
-            opcao = int(input('Deseja pesquisar outro assunto ou sair do sistema? 1-Sim ou 2-Sair'))
+            opcao = int(input('Deseja pesquisar outro assunto ou sair do sistema? 1-Sim ou 2-Sair '))
             if opcao == 1:
                 sleep(1)
                 menu2(opcao)
