@@ -2,7 +2,7 @@ from interface_grafica.funcoes import *
 
 
 def main():
-    teste()
+    menu1()
 
 
 if __name__ == '__main__':
