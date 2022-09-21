@@ -12,7 +12,7 @@ def cabecalho():
     linha()
 
 
-def teste() -> None:
+def menu1() -> None:
     """Interface gráfica do usuário """
     cabecalho()
     print('1  - PESQUISA NO TWITTER\n'
@@ -36,7 +36,7 @@ def menu2(opcao) -> None:
         exit()
     else:
         print('Opção inválida. Tente novamente.')
-        teste()
+        menu1()
 
 
 def pesquisa(query) -> None:
