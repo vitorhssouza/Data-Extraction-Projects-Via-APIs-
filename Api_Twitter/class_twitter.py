@@ -51,8 +51,7 @@ class Tweets:
              'pode', 'essa', 'é', 'mas', 'segue', 'pra', 'isso', 'vez', 'para', 'muito', 'pelo', 'pela', 'são', 'na',
              'vamos', 'https', 't', 'co', 'c', 'New', 'eu', 'seis', 'retweets', 'ano', 'pessoa', 'likes', 'vai', 'que',
              'ou', 'anos', '7dias', 'tirou', 'tem', 'q', '0', 'O', 'e', 'os', 'assim', 'só', 'mesmo', 'tá', 'pro',
-             'votar',
-             'pessoas', 'vc', 'eleições2022', 'HTTPS:', 'https:'])
+             'votar', 'pessoas', 'vc', 'eleições2022', 'HTTPS:', 'https:'])
 
         wordcloud = WordCloud(width=1600, stopwords=stopwords, height=800, max_font_size=200, max_words=20,
                               collocations=False,
