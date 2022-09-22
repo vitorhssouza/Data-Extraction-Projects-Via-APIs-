@@ -35,7 +35,7 @@ nuvens de palavras.
 ##### Print dos Tweets encontrado
 ![tweets](imagens/tweets.JPG)
 
-##### Gráfico Wordcloud
+##### Gráfico Wordcloud sobre eleições do Brasil do ano de 2022
 ![Gráfico Wordcloud](imagens/grafico.png)
 
 
