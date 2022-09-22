@@ -12,7 +12,7 @@ Data extraction projects via api
 * [Funcionalidade e demonstração da aplicação](#funcionalidade-e-demonstrao-da-aplicao)
 * [Tecnologia utilizadas](#tecnologias-utilizadas)
 * [Desenvolvedor do projeto](#desenvolvedor-do-projeto)
-* 
+
 
 ### Descrição do projeto
 
@@ -24,12 +24,27 @@ nuvens de palavras.
 
 
 ### Status do projeto
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=%20CONCLUÍDO&color=GREEN&style=for-the-badge)
 
 
 ### Funcionalidade e demonstração da aplicação
 
+##### Menu inicial
+![Menu](imagens/tela%20inicial.JPG)
+
+##### Print dos Tweets encontrado
+![tweets](imagens/tweets.JPG)
+
+##### Gráfico Wordcloud
+![Gráfico Wordcloud](imagens/grafico.png)
+
 
 ### Tecnologias utilizadas 
+* [Python 3.10](https://www.python.org/downloads/)
+* [Tweepy](https://www.tweepy.org/)
+* [Pandas](https://pandas.pydata.org/)
+* [Wordcloud](https://pypi.org/project/wordcloud/)
+* [Matplotlib](https://matplotlib.org/)
 
 
 ### Desenvolvedor do projeto
