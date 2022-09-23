@@ -11,6 +11,7 @@ Data extraction projects via api
 * [Status do Projeto](#status-do-projeto)
 * [Funcionalidade e demonstração da aplicação](#funcionalidade-e-demonstrao-da-aplicao)
 * [Tecnologia utilizadas](#tecnologias-utilizadas)
+* [Melhorias Futuras](#melhorias-futuras)
 * [Desenvolvedor do projeto](#desenvolvedor-do-projeto)
 
 
@@ -45,6 +46,10 @@ nuvens de palavras.
 * [Pandas](https://pandas.pydata.org/)
 * [Wordcloud](https://pypi.org/project/wordcloud/)
 * [Matplotlib](https://matplotlib.org/)
+
+### Melhorias Futuras
+- [ ] Adicionar possibilidade do usuário digitar a data que deseja visualizar tweets anteriores
+- [ ] Pesquisar tweets por países ou cidade específicas 
 
 
 ### Desenvolvedor do projeto
