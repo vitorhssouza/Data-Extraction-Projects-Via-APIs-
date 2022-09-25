@@ -17,9 +17,9 @@ Data extraction projects via api
 
 ### Descrição do projeto
 
-Nesse primeiro projeto foi utilizado a API do twitter para buscar dados no twitter. 
+Nesse primeiro projeto foi utilizado a API do twitter (tweepy) para buscar dados no twitter. 
 Foi criada uma classe tweets onde tem métodos que faz a comunicação com a api,
-método que retorna os 50 tweets mais falados no momento sobre o assunto que o
+método que retorna os 100 tweets mais falados no momento sobre o assunto que o
 usuário está pesquisando é um método que plota o gráfico wordcloud com as 
 nuvens de palavras. 
 
@@ -41,11 +41,11 @@ nuvens de palavras.
 
 
 ### Tecnologias utilizadas 
-* [Python 3.10](https://www.python.org/downloads/)
-* [Tweepy](https://www.tweepy.org/)
-* [Pandas](https://pandas.pydata.org/)
-* [Wordcloud](https://pypi.org/project/wordcloud/)
-* [Matplotlib](https://matplotlib.org/)
+* [Python 3.10](https://www.python.org/downloads/) - Linguagem utilizada para criação do projeto
+* [Tweepy](https://www.tweepy.org/) - Api utilizada para realizar a busca dos dados no twitter
+* [Pandas](https://pandas.pydata.org/) - Biblioteca utilizada para colocar os dados retornado da api do twitter em um dataframe pandas e fazer sua manipulação.
+* [Wordcloud](https://pypi.org/project/wordcloud/) - Biblioteca utilizada para plotagem do gráfico de palavras
+* [Matplotlib](https://matplotlib.org/) - Biblioteca utilizada para plotagem do gráfico de palavras
 
 ### Melhorias Futuras
 - [ ] Adicionar possibilidade do usuário digitar a data que deseja visualizar tweets anteriores
