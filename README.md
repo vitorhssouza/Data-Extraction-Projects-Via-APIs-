@@ -41,11 +41,11 @@ nuvens de palavras.
 
 
 ### Tecnologias utilizadas 
-* [Python 3.10](https://www.python.org/downloads/) - Linguagem utilizada para criação do projeto
-* [Tweepy](https://www.tweepy.org/) - Api utilizada para realizar a busca dos dados no twitter
+* [Python 3.10](https://www.python.org/downloads/) - Linguagem utilizada para criação do projeto.
+* [Tweepy](https://www.tweepy.org/) - Api utilizada para realizar a busca dos dados no twitter.
 * [Pandas](https://pandas.pydata.org/) - Biblioteca utilizada para colocar os dados retornado da api do twitter em um dataframe pandas e fazer sua manipulação.
-* [Wordcloud](https://pypi.org/project/wordcloud/) - Biblioteca utilizada para plotagem do gráfico de palavras
-* [Matplotlib](https://matplotlib.org/) - Biblioteca utilizada para plotagem do gráfico de palavras
+* [Wordcloud](https://pypi.org/project/wordcloud/) - Biblioteca utilizada para plotagem do gráfico de palavras.
+* [Matplotlib](https://matplotlib.org/) - Biblioteca utilizada para plotagem do gráfico de palavras.
 
 ### Melhorias Futuras
 - [ ] Adicionar possibilidade do usuário digitar a data que deseja visualizar tweets anteriores
