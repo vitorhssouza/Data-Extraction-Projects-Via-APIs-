@@ -1,5 +1,5 @@
-# Data-Extraction-Projects-Via-APIs-
-Data extraction projects via api
+# Data-Extraction-Projects-Via-Twitter-APIs
+Data extraction projects via twitter api
 
 ![Api](imagens/api.jpeg)
 
